@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Style3.css">
+    </head>
+    <body>
+        <div class="icon-bar">
+            <a href="Homepage.html"><img src="WhiteHome.svg"></a>
+            <a href="Webpage1.html"><img src="WhiteLang.svg"></a>
+            <a class="active" href="Webpage2.html"><img src="WhiteBadge.svg"></a>
+            <a href="Webpage3.html"><img src="WhiteContact.svg"></a>
+        </div>
+        
+<div class="header">
+  <h2>OuterWorldly Inc.</h2>
+  <p>What am I really ???</p>
+</div>
+
+<div id="navbar">
+    <a class="active" href="javascript:void(0)">Contents</a>
+  <a href="javascript:void(0)">About Me</a>
+  <a href="javascript:void(0)">Langvoyager</a>
+</div>
+
+<div class="content">
+    <div class="button"><h3>About Me</h3></div>
+  <p>Hello, the name's Felix, Felix Illusion.</p>
+  <p>I and OuterWorldly Inc. with you [If committed on Github{stick to Help and Support}] are[you are not me I have other studies to do]</p>
+    <div class="button"><h3>Langvoyager</h3></div>
+  <p>Have you ever tried to memorize your School days. When you talked with your friends in your very own Language</p>
+  <p>If yes good to go if not then GET OUT.</p>
+  <p>Welcome to Langovager a platform to discover..........well there are just 4 of them till now, SECRET CODES.</p>
+  <p>If You want any support stick to the menu.</p>
+
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+    </body>
+</html>

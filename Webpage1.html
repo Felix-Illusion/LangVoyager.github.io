@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="Style2.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <div class="icon-bar">
+      <a href="Homepage.html"><img src="WhiteHome.svg"></a>
+      <a class="active" href="Webpage1.html"><img src="WhiteLang.svg"></a>
+      <a href="Webpage2.html"><img src="WhiteBadge.svg"></a>
+      <a href="Webpage3.html"><img src="WhiteContact.svg"></a>
+    </div>
+      <h1 style="text-align: center; color: white">Our Codes</h1>
+    <div id="Quadri" class="tabcontent">
+      <h1>Quadri</h1>
+      <img src="Secret1.png" alt="Symbolic" height="265px">
+      <p style="text-align: right;">Download link not Available. Right click to to Save.</p>
+    </div>
+    <div id="Symbolic" class="tabcontent">
+      <h1>Symbolic</h1>
+      <img src="https://i.pinimg.com/originals/c5/bd/9b/c5bd9ba56947b9bca3cc24727dcaa111.jpg" height="325px">
+      <a href="https://i.pinimg.com/originals/c5/bd/9b/c5bd9ba56947b9bca3cc24727dcaa111.jpg"
+      ><button class="button">Download</button></a>
+    </div>
+    <div id="Pictish_Swirl" class="tabcontent">
+      <h1>Pictish Swirl Sript</h1>
+      <img src="Pictish_Swirls.png" height="325pxpx">
+      <a href="https://i.pinimg.com/736x/40/01/26/4001261434a7981c22991189ece517fe--secret-codes-script.jpg"><button class="button">Download</button>
+      </a>
+    </div>
+    <div id="Gordian" class="tabcontent">
+      <h1>Gordian</h1>
+      <img src="Gordian[1].png" height="325px">
+      <a href="https://i.pinimg.com/originals/c6/86/7d/c6867d224ce65ec273a748cf8cd3903f.jpg"><button class="button">Download</button></a>
+    </div>
+    <div id="Over" class="tabcontent">
+      <h1>That's all folks</h1>
+      <img src="WhiteCircle.svg" height="265px">
+      <p>That's all for now stay tuned for more.</p>
+    </div>
+    <button class="tablink" onclick="openCode('Quadri', this, 'rgb(255, 40, 40)')" id="defaultOpen">Quadri</button>
+    <button class="tablink" onclick="openCode('Symbolic', this, 'rgb(27, 233, 0')">Symbolic</button>
+    <button class="tablink" onclick="openCode('Pictish_Swirl', this, 'rgb(0, 89, 255)')">Pictish Swirl Script</button>
+    <button class="tablink" onclick="openCode('Gordian', this, 'yellow')">Gordian</button>
+    <button class="tablink" onclick="openCode('Over', this, 'aqua')">That' All</button>
+    
+    <script>
+    function openCode(cityName,elmnt,color) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+      }
+      document.getElementById(cityName).style.display = "block";
+      elmnt.style.backgroundColor = color;
+    
+    }
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+    </script>
+       
+  </body>
+</html> 

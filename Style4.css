@@ -1,0 +1,52 @@
+body{
+    background-image: linear-gradient(to right, red , purple)
+}
+p{
+    font-family: Helvectica, sans-serif;
+}
+h1{
+    font-family: Helvectica, sans-serif,
+}
+.button {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #00c47c;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+.button:hover {
+    background-color: #3e8e41
+}
+.button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.icon-bar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
+}
+  
+.icon-bar a {
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 12px 0;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+  
+.icon-bar a:hover {
+    background-color: #000;
+}
+  
+.active {
+    background-color: #04AA6D;
+}

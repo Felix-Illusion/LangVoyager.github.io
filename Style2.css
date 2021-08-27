@@ -1,5 +1,8 @@
 body{
-    background-image: linear-gradient(to right, red , purple);
+    background: #00c6ff;
+    background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+    background: linear-gradient(to right, #0072ff, #00c6ff);
+
 }
 h1{
     font-family: Helvetica, sans-serif;
@@ -33,7 +36,7 @@ p{
 }
 
 .active {
-    background-color: #00c47c;
+    background-color: #0072ff;
 }
 .tablink {
     background-color: #cacaca;
@@ -56,11 +59,7 @@ p{
     padding: 50px;
     text-align: center;
 }  
-#Quadri {background-color:rgb(255, 40, 40);}
-#Symbolic {background-color:rgb(27, 233, 0);}
-#Pictish_Swirl {background-color:rgb(0, 89, 255);}
-#Gordian {background-color:yellow;}
-#Over {background-color: aqua;}
+
 .button {
     padding: 15px 25px;
     font-size: 24px;
@@ -73,11 +72,16 @@ p{
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
+#Quadri {background-color:rgb(255, 40, 40);}
+#Symbolic {background-color:rgb(27, 233, 0);}
+#Pictish_Swirl {background-color:rgb(0, 89, 255);}
+#Gordian {background-color:yellow;}
+#Over {background-color: aqua;}
 .button:hover {
-    background-color: #3e8e41
+    background-color: #0072ff
 }
 .button:active {
-    background-color: #3e8e41;
+    background-color: #0072ff;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }

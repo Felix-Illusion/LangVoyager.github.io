@@ -1,5 +1,8 @@
 body{
-    background-image: linear-gradient(to right, red , purple)
+    background: #00c6ff;
+background: -webkit-linear-gradient(to right, #0072ff, #00c6ff);
+background: linear-gradient(to right, #0072ff, #00c6ff);
+
 }
 p{
     font-family: Helvectica, sans-serif;
@@ -14,16 +17,16 @@ head{
     cursor: pointer;
     outline: none;
     color: #fff;
-    background-color: #00c47c;
+    background-color: #00c6ff;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #999;
 }
 .button:hover {
-    background-color: #3e8e41
+    background-color: #0072ff
 }
 .button:active {
-    background-color: #3e8e41;
+    background-color: #0072ff;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
@@ -48,7 +51,7 @@ head{
 }
 
 .active {
-    background-color: #04AA6D;
+    background-color: #00c6ff;
 }
 .container {
     position: relative;
@@ -102,7 +105,7 @@ body {
 }
 
 #navbar a.active {
-  background-color: #00c47c;
+  background-color: #0072ff;
   color: white;
 }
 
